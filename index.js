@@ -4,7 +4,7 @@ const utils = require('./utils');
 
 
 const trimJSExtentions = (filePath) => {
-    return filePath.replace(/\.js$/, '');
+    return filePath.replace(/\.ts$/, '');
 }
 
 const isImportingIntoCustomization = (filename, customizationSuffix) => {
